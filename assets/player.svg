@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="262" viewBox="0 0 430 262" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="e" d="M5,20 L5,182 C5,197 10.1470588,202 25.5882353,202 C41.0294118,202 221.563505,202 334.411765,202 C349.852941,202 355,197 355,182 C355,167 355,20 355,20 L5,20 Z"/>
+    <filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="20" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.148522418 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="a" width="16" height="16" x="273" y="163" rx="2"/>
+    <mask id="f" width="16" height="16" x="0" y="0" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <circle id="b" cx="180" cy="171" r="8"/>
+    <mask id="g" width="16" height="16" x="0" y="0" fill="white">
+      <use xlink:href="#b"/>
+    </mask>
+    <path id="c" d="M84.2719481,162.247359 C85.2263246,161.695639 85.9999997,162.140923 85.9999997,163.246337 L86,177.755562 C86,178.859003 85.2280325,179.307248 84.2719485,178.75454 L71.7227789,171.499928 C70.7684024,170.948207 70.7666949,170.054679 71.7227789,169.501972 L84.2719481,162.247359 Z"/>
+    <mask id="h" width="14.994" height="16.981" x="0" y="0" fill="white">
+      <use xlink:href="#c"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(35)">
+    <use fill="black" filter="url(#d)" xlink:href="#e"/>
+    <path fill="#FFFFFF" d="M-3.41060513e-13,0 L-3.97903932e-13,182 C-3.97903932e-13,197 5,202 20,202 C35,202 230.375977,202 340,202 C355,202 360,197 360,182 C360,167 360,0 360,0 L-3.41060513e-13,0 Z"/>
+    <use stroke="#000000" stroke-opacity=".198" stroke-width="4" mask="url(#f)" xlink:href="#a"/>
+    <use stroke="#000000" stroke-opacity=".198" stroke-width="4" mask="url(#g)" xlink:href="#b"/>
+    <use stroke="#000000" stroke-opacity=".198" stroke-width="4" mask="url(#h)" xlink:href="#c"/>
+  </g>
+</svg>
